@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fredoka:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fredoka", sans-serif;
+}
+
+:root {
+  --sky: #a4c7fe;
+  --cloud: #f9fafd;
+  --gold: #dd7826;
+  --lav: #7e73af;
+  --mist: #dde2ec;
+  --ink: #1f1b2e;
+  --danger: #ff5c8a;
+  --safe: #2ecc71;
+}
+
+.bg-sky-gradient {
+  background: linear-gradient(180deg, var(--sky), var(--cloud));
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.92);
+  border: 2px solid var(--mist);
+  border-radius: 24px;
+  box-shadow: 0 12px 30px rgba(31, 27, 46, 0.10);
+  backdrop-filter: blur(8px);
+}
+
+.title-stroke {
+  color: var(--gold);
+  -webkit-text-stroke: 1.5px var(--ink);
+  text-shadow: 
+    2px 2px 0 var(--ink),
+    -1px -1px 0 var(--ink),  
+     1px -1px 0 var(--ink),
+    -1px  1px 0 var(--ink),
+     1px  1px 0 var(--ink);
+}
+
+.candy-button {
+  border-radius: 9999px;
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 4px 0 rgba(0,0,0,0.1);
+}
+
+.candy-button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 rgba(0,0,0,0.1);
+}

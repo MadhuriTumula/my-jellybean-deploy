@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "label": "Suspicious Crypto Scam",
+    "message": "Hey! I saw your profile and I think you'd be perfect for our new crypto mining pool. We're seeing 20% returns daily. Just click this link to connect your wallet: http://bit.ly/crypto-scam-link",
+    "platform": "Discord",
+    "relationship": "unknown",
+    "context": { "asked_for_money": true, "asked_to_move_off_platform": true }
+  },
+  {
+    "id": 2,
+    "label": "Impersonation (Bank)",
+    "message": "URGENT: Your bank account has been locked due to suspicious activity. Please verify your identity immediately by providing the 6-digit code we just sent to your phone. Failure to do so will result in permanent closure.",
+    "platform": "SMS",
+    "relationship": "authority figure",
+    "context": { "asked_for_otp": true }
+  },
+  {
+    "id": 3,
+    "label": "Marketplace Overpayment",
+    "message": "I'm interested in the couch you're selling. I'll send you a check for $500 more than the asking price to cover the movers. Just wire the extra back to me once you deposit it. Sound good?",
+    "platform": "Marketplace",
+    "relationship": "buyer/seller",
+    "context": { "asked_for_money": true }
+  },
+  {
+    "id": 4,
+    "label": "Romance Scam",
+    "message": "I've never felt this way about anyone before. I really want to come visit you, but my bank account is frozen because of a legal issue in my country. Could you send $200 for the flight? I'll pay you back double when I arrive.",
+    "platform": "Dating app",
+    "relationship": "romantic interest",
+    "context": { "asked_for_money": true }
+  },
+  {
+    "id": 5,
+    "label": "Harassment/Threat",
+    "message": "I know where you live. If you don't delete that post, I'm going to come to your house and make you regret it. You have 24 hours.",
+    "platform": "Instagram",
+    "relationship": "unknown",
+    "context": { "threatened_me": true, "asking_for_meetup": true }
+  },
+  {
+    "id": 6,
+    "label": "Job Offer Scam",
+    "message": "Congratulations! You've been selected for a remote data entry position at GlobalTech. Salary is $50/hr. We just need you to pay a $99 equipment processing fee to get started.",
+    "platform": "Email",
+    "relationship": "unknown",
+    "context": { "asked_for_money": true }
+  },
+  {
+    "id": 7,
+    "label": "Friend in Trouble",
+    "message": "Hey, it's me! I'm traveling and lost my wallet. I'm stuck at the airport and need $50 for a cab to the hotel. Can you Venmo me? I'll pay you back tomorrow!",
+    "platform": "SMS",
+    "relationship": "friend",
+    "context": { "asked_for_money": true }
+  },
+  {
+    "id": 8,
+    "label": "Tech Support Scam",
+    "message": "Microsoft Security Alert: Your computer is infected with a Trojan virus. Call our toll-free number 1-800-FAKE-HELP immediately to prevent data loss.",
+    "platform": "Other",
+    "relationship": "authority figure",
+    "context": { "asked_to_move_off_platform": true }
+  },
+  {
+    "id": 9,
+    "label": "Lottery Win",
+    "message": "You've won the $1,000,000 Mega Millions! To claim your prize, please reply with your full name, address, and SSN for tax verification.",
+    "platform": "Email",
+    "relationship": "unknown",
+    "context": { "asked_for_money": false }
+  },
+  {
+    "id": 10,
+    "label": "Sextortion",
+    "message": "I have videos of you from your webcam. If you don't send $500 in Bitcoin to this address, I'm sending them to all your Facebook friends.",
+    "platform": "Email",
+    "relationship": "unknown",
+    "context": { "threatened_me": true, "sexual_content": true }
+  },
+  {
+    "id": 11,
+    "label": "Package Delivery Scam",
+    "message": "Your USPS package is on hold due to an incomplete address. Please update your details and pay the $0.30 redelivery fee here: http://usps-update-address.com",
+    "platform": "SMS",
+    "relationship": "unknown",
+    "context": { "asked_for_money": true }
+  },
+  {
+    "id": 12,
+    "label": "Gift Card Request",
+    "message": "Hi, this is the CEO. I'm in a meeting and need you to buy 5 $100 Apple gift cards for a client. Send the codes to me here. I'll reimburse you by end of day.",
+    "platform": "Email",
+    "relationship": "coworker",
+    "context": { "asked_for_money": true }
+  },
+  {
+    "id": 13,
+    "label": "Verification Code Scam",
+    "message": "Someone is trying to log into your account. We sent a verification code to your email. Please tell me the code so I can block the login for you.",
+    "platform": "Instagram",
+    "relationship": "unknown",
+    "context": { "asked_for_otp": true }
+  },
+  {
+    "id": 14,
+    "label": "Fake Giveaway",
+    "message": "MrBeast is giving away $10,000 to the first 100 people who sign up here! Don't miss out!",
+    "platform": "Other",
+    "relationship": "unknown",
+    "context": { "asked_to_move_off_platform": true }
+  },
+  {
+    "id": 15,
+    "label": "Aggressive Debt Collector",
+    "message": "This is the last warning. You owe $4,500 in unpaid taxes. If you don't pay via wire transfer in 2 hours, the police will be at your door.",
+    "platform": "Other",
+    "relationship": "authority figure",
+    "context": { "threatened_me": true, "asked_for_money": true }
+  },
+  {
+    "id": 16,
+    "label": "Inappropriate Marketplace Request",
+    "message": "I'll buy the dress, but only if you send me a picture of you wearing it first. I need to see how it fits.",
+    "platform": "Marketplace",
+    "relationship": "buyer/seller",
+    "context": { "sexual_content": true }
+  },
+  {
+    "id": 17,
+    "label": "Mystery Shopper Scam",
+    "message": "Earn $400/week as a mystery shopper! We'll send you a check for $2,000. Keep $400 and use the rest to buy eBay gift cards to test the store.",
+    "platform": "Email",
+    "relationship": "unknown",
+    "context": { "asked_for_money": true }
+  },
+  {
+    "id": 18,
+    "label": "Social Engineering (Friend)",
+    "message": "Hey, I'm locked out of my account. Can you receive a code for me and send it back? It's the only way I can get back in!",
+    "platform": "Instagram",
+    "relationship": "friend",
+    "context": { "asked_for_otp": true }
+  },
+  {
+    "id": 19,
+    "label": "Phishing (Netflix)",
+    "message": "Your Netflix subscription has expired. Please update your payment method to continue watching your favorite shows.",
+    "platform": "Email",
+    "relationship": "unknown",
+    "context": { "asked_for_money": true }
+  },
+  {
+    "id": 20,
+    "label": "Safe Message (Friend)",
+    "message": "Hey! Are we still on for coffee tomorrow at 10am? Let me know!",
+    "platform": "SMS",
+    "relationship": "friend",
+    "context": { "asked_for_money": false }
+  }
+]
